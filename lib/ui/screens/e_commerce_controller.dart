@@ -20,7 +20,9 @@ class ECommerceController extends GetxController {
       "name": "4.0+ HOODIE",
       "color": "BLUE",
       "direction": "CENTER",
-      'img_url': AppConstants.hoodie1
+      'img_url': AppConstants.hoodie1,
+      'description':
+          'Stay cozy and stylish with the 4.0+ Hoodie. This vibrant blue hoodie combines a classic design with soft, high-quality fabric, offering comfort and warmth. Perfect for everyday wear, its an essential addition to your wardrobe for any season.'
     },
     {
       //2
@@ -28,7 +30,9 @@ class ECommerceController extends GetxController {
       "name": "4.0+ JACKET",
       "color": "BLACK",
       "direction": "CENTER",
-      'img_url': AppConstants.hoodie2
+      'img_url': AppConstants.hoodie2,
+      'description':
+          'Stay stylish and comfortable with the 4.0+ Jacket. This sleek black jacket is perfect for any weather, offering a lightweight yet durable design. Ideal for everyday wear, it features a modern fit with a versatile look, making it a must-have for your wardrobe.'
     },
     {
       //3
@@ -36,7 +40,9 @@ class ECommerceController extends GetxController {
       "name": "4.0+ TROUSERS",
       "color": "GRAY",
       "direction": "LEFT",
-      'img_url': AppConstants.hoodie3
+      'img_url': AppConstants.hoodie3,
+      'description':
+          'Experience comfort and style with the 4.0+ Trousers. These sleek gray trousers offer a perfect blend of a modern fit and versatile design. Made from high-quality fabric, they provide all-day comfort, making them ideal for both casual and formal wear.'
     },
     {
       //4
@@ -44,7 +50,9 @@ class ECommerceController extends GetxController {
       "name": "4.0+ TECHNICAL",
       "color": "LIGHTBLUE",
       "direction": "RIGHT",
-      'img_url': AppConstants.hoodie4
+      'img_url': AppConstants.hoodie4,
+      'description':
+          'The 4.0+ Technical Hoodie in light blue offers a sleek, modern look with advanced fabric technology. Its designed for optimal comfort and performance, making it perfect for workouts or casual outings. Stay warm and move freely with this versatile, stylish hoodie.'
     },
     {
       //5
@@ -52,7 +60,7 @@ class ECommerceController extends GetxController {
       "name": "4.0+ HOODIE",
       "color": "LIGHTBLUE",
       "direction": "RIGHT",
-      'img_url': AppConstants.hoodie4
+      'img_url': AppConstants.hoodie4,
     },
     {
       //6
@@ -60,7 +68,9 @@ class ECommerceController extends GetxController {
       "name": "4.0+ HOODIE",
       "color": "BLUE",
       "direction": "CENTER",
-      'img_url': AppConstants.hoodie1
+      'img_url': AppConstants.hoodie1,
+      'description':
+          'Stay cozy and stylish with the 4.0+ Hoodie. This vibrant blue hoodie combines a classic design with soft, high-quality fabric, offering comfort and warmth. Perfect for everyday wear, its an essential addition to your wardrobe for any season.'
     },
     {
       //7
@@ -68,7 +78,9 @@ class ECommerceController extends GetxController {
       "name": "4.0+ JACKET",
       "color": "BLACK",
       "direction": "CENTER",
-      'img_url': AppConstants.hoodie2
+      'img_url': AppConstants.hoodie2,
+      'description':
+          'Stay stylish and comfortable with the 4.0+ Jacket. This sleek black jacket is perfect for any weather, offering a lightweight yet durable design. Ideal for everyday wear, it features a modern fit with a versatile look, making it a must-have for your wardrobe.'
     },
     {
       //8
@@ -76,25 +88,10 @@ class ECommerceController extends GetxController {
       "name": "4.0+ TROUSERS",
       "color": "GRAY",
       "direction": "LEFT",
-      'img_url': AppConstants.hoodie3
+      'img_url': AppConstants.hoodie3,
+      'description':
+          'Experience comfort and style with the 4.0+ Trousers. These sleek gray trousers offer a perfect blend of a modern fit and versatile design. Made from high-quality fabric, they provide all-day comfort, making them ideal for both casual and formal wear.'
     },
-    {
-      //9
-      "price": 430,
-      "name": "4.0+ HOODIE",
-      "color": "BLUE",
-      "direction": "CENTER",
-      'img_url': AppConstants.hoodie1
-    },
-    {
-      //10
-      "price": 600,
-      "name": "4.0+ HOODIE",
-      "color": "LIGHTBLUE",
-      "direction": "RIGHT",
-      'img_url': AppConstants.hoodie4
-    },
-   
   ];
 
   RxList<String> items = [

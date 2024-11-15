@@ -84,9 +84,9 @@ class DetailsScreen extends StatelessWidget {
                     ),
                   ),
                   const SizedBox(height: 10),
-                  const Text(
-                    'This is a high-quality hoodie, perfect for any season. The fabric is soft and durable, providing comfort and warmth.',
-                    style: TextStyle(fontSize: 14),
+                  Text(
+                    item['description'] ?? 'No description available.',
+                    style: const TextStyle(fontSize: 14),
                   ),
                   const SizedBox(height: 10),
                   Text(
